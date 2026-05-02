@@ -52,6 +52,3 @@ App runs at: **http://localhost:3000**
 | POST | /api/todos | ✅ | Create todo |
 | PUT | /api/todos/:id | ✅ | Update todo |
 | DELETE | /api/todos/:id | ✅ | Delete todo |
-
-## Resume Line
-> *"Built TaskFlow, a full-stack Todo app with JWT authentication using React, Node.js, MongoDB — containerized with Docker Compose and Nginx reverse proxy."*
