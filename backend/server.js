@@ -22,7 +22,7 @@ app.get("/health", (req, res) => {
 
 // MongoDB connect
 mongoose
-  .connect(process.env.MONGO_URI || "mongodb://localhost:27017/taskflow")
+  .connect(process.env.MONGO_URI || "mongodb://mongo:27017/taskflow")
   .then(() => {
     console.log("✅ MongoDB connected");
     app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
